@@ -1,0 +1,55 @@
+name: quizu
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.3
+  get: ^4.6.5
+  intl_phone_field: ^3.1.0
+  flutter_svg: ^1.1.5
+  pin_code_fields: ^7.4.0
+  http: ^0.13.5
+  lottie: ^1.4.3
+  circular_countdown_timer: ^0.2.2
+  shared_preferences: ^2.0.15
+  share_plus: ^4.4.0
+  image_picker: ^0.8.5+3
+  phone_number: ^1.0.0
+  flutter_launcher_icons: ^0.10.0
+  flutter_native_splash: ^2.2.10+1
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/OkoulLogo.png"
+
+flutter_native_splash:
+  color:  '#F5FAFF'
+  image: assets/images/OkoulLogo.png
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/gifs/
+    - assets/images/
+    - assets/animations/
+
